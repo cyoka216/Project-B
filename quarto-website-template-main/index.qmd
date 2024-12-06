@@ -4,9 +4,6 @@ about:
   id: about-block
   image: "img/Christina_Guyana.jpg"
   links:
-    - icon: github
-      text: Github
-      href: https://github.com/marvinschmitt
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/christina-yoka-46076015/
