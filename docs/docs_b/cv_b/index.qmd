@@ -1,0 +1,62 @@
+---
+layout: page
+title: Professional
+excerpt: My current CV
+execute:
+  freeze: true  # never re-render during project render
+engine: knitr 
+resources:
+  - "CYoka Resume.pdf"
+cv:
+  pdf: "CYoka Resume.pdf"
+---
+
+After graduating from Cleveland State University in 2010, I was hired by a local environmental non-profit organization, Earth Day Coalition. The mission of Earth Day Coalition was to provide education, inspire leadership, and encourage action for a healthy environment. My first professional experience was a Special Event and Marketing Coordinator.  After obtaining my M.A. from Miami University in 2012, I was promoted to the Clean Transportation Program Director.  My work at Earth Day Coalition exposed me to a wide range of skill sets that have served as a foundation to my career - project management, communications, program development, grant writing, and more. The first grant that I secured was from the Ohio Environmental Protection Agency and this was the "Reducing Greenhouse Gas Emissions through Alternative Fuels" project. The primary aim of this project was to work with industry to adopt lower emitting fuel technologies and to engage with schools on workforce development.  
+
+# CLEANinCLE
+
+I remained at Earth Day Coalition until I entered my current position as Chief of Air Pollution Outreach at the Cleveland Department of Public Health - Division of Air Quality. In this role, I oversee anything that relates to air quality, community engagement, and public health. One key project that I am currently focusing on is a US EPA funded projected called the Community Leveraged Expanded Air Network in Cleveland, or CLEANinCLE.  The aim of this project is to expand Cleveland's air monitoring network into historically redlined communities through the use of low cost sensors. Communities in historically redlined neighborhoods still experience the negative consequences of this historic racist practice. The primary health condition that we are focusing on is pediatric asthma. The national average for pediatric asthma is between 8-10%. There are neighborhoods in Cleveland with pediatric asthma prevalence as high as 25%.  We analyzed pediatric asthma and environmental factors to establish targeted neighborhoods in the City of Cleveland with the highest pediatric asthma and environmental exposures. The map below was produced by the Case Western Reserve University Health GIS Health and Hazards Lab with data data provided by Better Health Partnership and publicly available data on the U.S. EPA Environmental Justice Screening Tool. 
+
+<img src="CLEANinCLE.jpg" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://clevelandhealth.org/programs/air/CLEANinCLE/', 'blank');"/>
+
+In order to determine sensor placement, we solicited community feedback on where the sensors should be placed based off of their perceptions and lived experiences of air quality in their neighborhoods. The data from this project will be made available in near-real time through a air quality data dashboard scheduled to be published in January 2025. Our project partner assisting with the development of this dashboard is the Institute for Smart, Secure and Connecties Cities at Case Western Reserve University.  We want to provide easily accessible information to residents so that that they can make informed decisions for protecting their health. Internally, we are using this data to determine poor air quality hotspots and respond with the appropriate regulatory action.  
+
+Our project partners include Better Health Partnership, Case Western Reserve University, Cleveland Neighborhood Progress, and the Cleveland Clinic Institute. We have also engaged a paid resident advisory committee to serve as community liaisons and advise on project decisions. 
+
+# Lego Air Sensor Workshops
+My work at CDPH also include activities to increase awareness on air pollution and the services we offer. In 2021, we initiated a workshop meant to engage youth in engineering practices and learn basic information on air quality. We now offer a hands-on workshop to schools, youth groups, and the general public where participants can build a working air sensor using Lego's. We provide all of the necessary supplies and instructions for participants to build the air sensors. The sensor technology is based on light scattering principles. It is a fun way to bring awareness to the importance of air quality and demonstrate careers in air quality/environmental sciences. 
+
+In 2023, we worked with the Cleveland STEP program to lead their group through a Lego Air Sensor Workshop. Check out the video below to learn more about the workshop. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jxJ-W3mVUkw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+```{css echo=FALSE}
+.embed-container {
+    position: relative;
+    padding-bottom: 129%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+```
+
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="`r rmarkdown::metadata$cv$pdf`" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download current CV
+  </a>
+</p>
+
+```
+
+
