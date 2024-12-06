@@ -1,0 +1,36 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/Christina_Guyana.jpg"
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/marvinschmitt
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/christina-yoka-46076015/
+    - icon: envelope
+      text: Email
+      href: "mailto:cxy533@case.edu"  
+---
+
+::: {#about-block}
+:::
+
+# Welcome! 
+
+Thank you for visiting my page.  I am Christina Yoka, a dedicated environmental health advocate. All of my life I have been a person interested in being in nature and a part of the environment. Whether through swimming in Lake Erie as a child, exploring the metroparks, and later on, getting to see a little bit more of the Earth's beauty outside of Cleveland, I have always loved finding ways to connect with the natural world. 
+
+Today, I incorporate this passion into my personal life, academic journey, and profession.  In my personal life, I connect with the water through scuba diving and in my day-to-day life, through my native plant garden.  My academic journey is an interesting one, which includes training in everything from Religious Studies, to Environmental Sciences, to my current pursuit, Public Health. As for my profession, I have always gravitated towards public service where I started in the non-profit world and now work for local government at the Cleveland Department of Public Health. 
+
+I invite you to learn more about this journey by visiting my pages on my Educational Background and my Professional History. 
+
+
+
+```{=html}
+<div  style="margin: 30px; text-align: center;">
+<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
+</div>
+```
+
