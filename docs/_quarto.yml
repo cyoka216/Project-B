@@ -12,9 +12,9 @@ website:
     
     left:
       - text: "Education"
-        href: Education/index.qmd
+        href: Education_b/index.qmd
       - text: "Professional"
-        href: cv/index.qmd
+        href: cv_b/index.qmd
     
     
     right:
